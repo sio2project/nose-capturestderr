@@ -4,8 +4,8 @@ setup(
     version = '1.0',
     author = "The SIO2 Project Team",
     author_email = 'sio2@sio2project.mimuw.edu.pl',
-    description = "HTML report generation plugin for nose",
-    url = 'http://github.com/sio2devel/nose-capturestderr',
+    description = "Nose plugin for capturing stderr.",
+    url = 'http://github.com/sio2project/nose-capturestderr',
     license = 'GPL',
 
     packages = find_packages(),
