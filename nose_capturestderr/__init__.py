@@ -20,7 +20,10 @@ import os
 import sys
 from nose.plugins.base import Plugin
 from nose.util import ln
-from StringIO import StringIO
+try:
+    from io import StringIO
+except ImportError:
+    from StringIO import StringIO
 
 
 log = logging.getLogger(__name__)
