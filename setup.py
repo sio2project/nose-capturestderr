@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name = "nose-capturestderr",
-    version = '1.1',
+    version = '1.2',
     author = "The SIO2 Project Team",
     author_email = 'sio2@sio2project.mimuw.edu.pl',
     description = "Nose plugin for capturing stderr.",
