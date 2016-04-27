@@ -21,9 +21,9 @@ import sys
 from nose.plugins.base import Plugin
 from nose.util import ln
 try:
-    from io import StringIO
-except ImportError:
     from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 
 log = logging.getLogger(__name__)
